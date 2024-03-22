@@ -1,0 +1,58 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<table border="2" width="500px" height="50px" style="border-collapse: collapse;padding: 20px;">
+    <tr>
+        <td> Enter Name</td>
+        <td><input type="text" name="username" placeholder="Enter Name"></td>
+    </tr>
+    <!-- <form action="FirstDemo.html" method="get"> -->
+    <tr>
+        <td> Enter Password </td>
+        <td><input type="password" name="password"></td>
+    </tr>
+   <tr>
+    <td> Gender</td>
+    <td> <input type="radio" name="gender" value="male" checked> Male
+        <input type="radio" name="gender" value="female" checked> Female</td>
+   </tr>
+   
+<tr>
+    <td>  Select Course</td>
+    <td> <select name="course" multiple size="3">
+        <option value="java">Java</option>
+        <option value="Spring">Spring</option>
+        <option value="Angular">Angular</option>
+        <option value="Node">Node</option>
+    </select></td>
+</tr>
+  
+   <tr>
+    <td>Hobbies</td>
+    <td>
+        <input type="checkbox" name="hobby" value="dance">Dance
+        <input type="checkbox" name="hobby" value="music">Music
+        <input type="checkbox" name="hobby" value="sports">Sports
+        <input type="checkbox" name="hobby" value="reading">Reading
+    </td>
+   </tr>
+
+<tr>
+    <td>Comments</td>
+    <td><textarea name="comments"  cols="30" rows="10">Share yout thoughts</textarea></td>
+</tr>
+
+<tr>
+    <td colspan="2"><input type="submit" value="Enter Details"></td>
+</tr>
+
+</form>
+</table> 
+</body>
+</html>

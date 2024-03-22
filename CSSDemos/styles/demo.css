@@ -1,0 +1,19 @@
+body{
+    background-color: aliceblue;
+}
+
+p{
+    background-color: aqua;
+    border: 2px solid;
+    letter-spacing: 5px;
+}
+
+h1{
+    text-transform: uppercase;
+    background-color: aquamarine;
+}
+
+h2{
+    color: brown;
+}
+

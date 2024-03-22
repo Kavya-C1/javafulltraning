@@ -1,0 +1,10 @@
+package com.voya.traning;
+
+public class StudentDetails {
+
+	public int totalMarks(int marks1, int marks2, int marks3) {
+		int sum = marks1+marks2+marks3;
+		return sum;
+	}
+	
+}

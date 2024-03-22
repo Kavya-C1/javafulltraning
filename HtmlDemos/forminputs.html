@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form input</title>
+</head>
+<body>
+
+    <form action="FirstDemo.html" method="get">
+        Name <input type="text" name="username" required><br><br>
+        Age <input type="number" name="age" min="18" max="80" step="2"><br><br>
+        Mobile <input type="tel" name="mobile" pattern="[0-9]{10}"><br><br>
+        Email <input type="email" name="email" required><br><br>
+        Company <input type="text" name="company" readonly value="voya"><br><br>
+        City <input type="text" name="city" value="Bangalore" disabled><br><br>
+
+        Date of Booking <input type="date" name="date" min="2023-09-05" max="2024-09-05"><br><br>
+
+        Starting Time <input type="datetime-local" name="datetime" min="2023-09-05T12:20" max="2023-09-10T1:20"><br><br>
+
+        Color <input type="color" name="color"><br><br>
+        Range <input type="range" name="range" min="20000" max="200000"><br><br>
+
+        Salary <input type="text" name="salary" onmouseover="salary.value=parseInt(range.value)"><br><br>
+
+        <input type="submit" value="Add User">
+    </form>
+    
+</body>
+</html>
